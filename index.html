@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+</head>
+<body>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <img src="https://i.pinimg.com/236x/d4/be/a5/d4bea5a160ccd226ef9507f41d3537d6--branding.jpg" alt="Logo" height="100">
+            </td>
+            <td>
+                <h1>Welcome to My First HTML Page!</h1>
+            </td>    
+       </tr>
+    </table>
+    <table cellspacing="10">
+        <tr>
+            <td><a style="text-decoration: none;" href="#">Home</a></td>
+            <td><a style="text-decoration: none;" href="https://www.facebook.com/antoine.m.villanueva" target="_blank">About Me</a></td>
+            <td><a style="text-decoration: none;" href="#">Contact Me</a></td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Hi There! My Name is Antoine</h2>
+    <p>
+        Constructing my own website fills me with excitement because it offers me the opportunity to bring my creative ideas to life, showcase my work to a wider audience, and gain valuable skills along the way. The process of designing, developing, and refining every element of the website is not only fulfilling but also a truly enjoyable experience that allows me to express myself in a unique digital space.
+    </p>
+    <table
+            border="0"
+            cellpadding="5"
+            cellspacing="2">
+        <tr>
+            <td><button><a style="text-decoration: none;" href="#">My Portfolio</a></button></td>
+            <td><button><a style="text-decoration: none;" href="#">My Services</a></button></td>
+            <td><button><a style="text-decoration: none;" href="mypassion.html">My Passion</a></button></td>
+        </tr>
+    </table>
+    <img src="Images/HTML Photo Antoine.png" alt="My Photo" title="My Photo" height="300">
+    <hr>
+    <h2>Why Hire Me?</h2>
+    <ol>
+        <li>I am Passionate</li>
+        <li>Honest</li>
+        <li>and Adaptable</li>
+    </ol>
+
+    <iframe width="450" height="250" src="https://www.youtube.com/embed/salY_Sm6mv4" title="HTML in 5 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Contact Me</h3>
+    <form>
+        Name: <br>
+        <input type="text"> <br><br>
+        Email: <br>
+        <input type="text"> <br><br>
+        <button>SUBMIT</button>
+        <!-- 
+            Tables - <table></table>
+         -->
+    </form>
+    <table border="1px solid black">
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+        </tr>
+        <tr>
+            <td>Villanueva</td>
+            <td>Antoine</td>
+        </tr>
+     </table>
+     <table border="1px solid black">
+        <tr>
+            <th colspan="2">
+                Header Section
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2"><h4>Navigation Bar</h4></td>
+        </tr>
+        <tr>
+            <td>Index</td>
+            <td>Content Section</td>
+        </tr>
+        <tr><td colspan="2">Footer Section</td></tr>
+     </table>
+     <br><br>
+     <form>
+        <div>
+            <label for="">First Name</label>
+            <input type="text" id="First_name">
+        </div>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" id="Last_Name">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <select name="gender" id="gender" id="gender"> 
+                <option value="Male">Male</option>
+                <option value="Female">FeMale</option>
+            </select>
+        </div>
+
+        <div>
+            <h6>Favorite Car</h6>
+            <input type="checkbox" id="toyota" name="toyota" value="toyota">
+            <label for="toyota">toyota</label>
+            <input type="checkbox" id="Ford" name="Ford" value="Ford">
+            <label for="Ford">Ford</label>
+            <input type="checkbox" id="Honda" name="Honda" value="Honda">
+            <label for="Honda">Honda</label>
+        </div>
+
+        <div>
+            <label for="Date of Birth">Date of Birth</label>
+            <input type="date" name="date_of_birth" id="date_of_birth">
+        </div>
+        <br>
+
+        <div>
+            <h2>Favorite Topic</h2>
+            <input type="radio" name="favorite topic" id="list_tag">
+            <label for="list_tag">list_tag</label>
+
+            <input type="radio" name="favorite topic" id="table">
+            <label for="table">table</label>
+
+            <input type="radio" name="favorite topic" id="form">
+            <label for="form">form</label>
+        </div>
+        <button>SUBMIT</button>
+     </form>
+</body>
+</html>
