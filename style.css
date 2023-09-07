@@ -1,4 +1,22 @@
 #paragraph01 {
     font-size: 50px;
-    color: blue;
+    color: #0000ff;
+}
+.padding {
+    padding: 10px;
+    border: 10px solid burlywood;
+    background-color: pink;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #b9cc8e;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline blue dotted;
+    text-align: justify;
 }
