@@ -1,0 +1,24 @@
+.parent {
+    background-color: lightblue;
+    padding: 25px;
+    font-size: 40px;
+    /* position: relative; */
+}
+
+.box {
+    padding: 25px;
+    font-size: 35px;
+}
+.child-one {
+    background-color: lightcoral;
+    position: absolute;
+    top: 0;
+}
+
+.child-two {
+    background-color: lightpink;
+}
+
+.child-three {
+    background-color: lightseagreen;
+}
