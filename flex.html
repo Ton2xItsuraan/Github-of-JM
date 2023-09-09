@@ -4,25 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Lesson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./flex.css">
 </head>
 <body>
-<div class="demo">
-    <header class="header">
-        <h1>Header</h1>
-        <nav>
-            <h1>Navigation</h1>
-        </nav>
+    <header class="red header flex">
+      <h3 class="item">Header</h3>
+      <div class="item">
+        <p>fixed Height</p>
+        <p>100% width</p>
+      </div>
     </header>
-    <main class="main">
-        <section>
-            <h1>Sidebar</h1>
-        </section>
-        <h1>Contents</h1>
+    <main class="main flex">
+      <section class="section01">
+        <h3>Left</h3>
+        <div>
+          <p>fixed Height</p>
+          <p>100% width</p>
+        </div>
+      </section>
+      <section class="section02">
+        <h3>Middle</h3>
+        <div>
+          <p>fixed Height</p>
+          <p>100% width</p>
+        </div>
+      </section>
+      <section class="section03">
+        <h3>Right</h3>
+        <div>
+          <p>fixed Height</p>
+          <p>100% width</p>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-        <h1>Footer</h1>
+    <footer class="red footer flex">
+      <h3 class="item">Footer</h3>
+      <div class="item">
+        <p>fixed Height</p>
+        <p>100% width</p>
+      </div>
     </footer>
-</div>
-</body>
+  </body>
 </html>
