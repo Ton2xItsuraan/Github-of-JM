@@ -18,3 +18,19 @@ body {
 .grid-item-1 {
     grid-column: 1 / -1;
 }
+
+@media (min-width: 375px) and (max-width: 678px) {
+
+    .grid-item-1 {
+        font-size: 18px;
+    }
+
+    .grid-item-2 {
+        grid-column: 1/ -1;
+        font-size: 18px;
+    }
+
+    .grid-item-3 {
+        grid-column: 1/ -1;
+        font-size: 18px; }
+}
